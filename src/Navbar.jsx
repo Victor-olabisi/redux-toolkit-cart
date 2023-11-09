@@ -5,7 +5,6 @@ const Navbar = () => {
     const { amount } = useSelector((state) => {
         return state.cart
     })
-    console.log(amount);
   return (
       <nav>
           <div className="nav-center">
